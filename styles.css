@@ -1,0 +1,11 @@
+@import url(./pages/homepage/homepage.css);
+
+.navbar {
+	grid-area: top-navbar;
+	padding: 0 2rem;
+}
+
+.navbar-brand {
+	max-width: 100%;
+	color: var(--text-color-black);
+}
