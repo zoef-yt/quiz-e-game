@@ -1,5 +1,5 @@
 @import url(./pages/homepage/homepage.css);
-
+@import url(./pages/allquizpage/allquizpage.css);
 .navbar {
 	grid-area: top-navbar;
 	padding: 0 2rem;
@@ -8,4 +8,52 @@
 .navbar-brand {
 	max-width: 100%;
 	color: var(--text-color-black);
+}
+
+.profile-modal {
+	display: none;
+	position: absolute;
+	width: 15rem;
+	padding: 1rem;
+	right: 0;
+	background-color: var(--colour-accent-third);
+	margin-top: 1rem;
+	z-index: 2;
+	color: var(--colour-text-white-two);
+	border-radius: 1rem;
+	transition: all 0.3s ease-in-out;
+}
+
+.profile-modal::before {
+	content: '';
+	position: absolute;
+	top: -1.8rem;
+	right: 1rem;
+	margin-left: -5px;
+	border-width: 10px;
+	border-style: solid;
+	border-color: transparent transparent var(--colour-accent-third) transparent;
+}
+
+.profile-modal > * {
+	margin: 5px;
+	border-radius: 5px;
+	transition: all 0.3s ease-in-out;
+}
+
+.profile-modal li:hover {
+	padding-left: 5px;
+	background-color: var(--colour-accent-third-with-opacity);
+}
+
+.profile-modal-holder:hover .profile-modal {
+	display: block;
+}
+
+.color-negative {
+	color: var(--colour-error);
+}
+
+.color-positive {
+	color: var(--colour-accent-one);
 }
