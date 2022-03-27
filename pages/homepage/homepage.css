@@ -49,6 +49,7 @@
 .card-body .card-overlay h1 {
 	color: var(--text-color-black);
 }
+
 @media screen and (max-width: 768px) {
 	#categories-section .card {
 		width: 29rem;
