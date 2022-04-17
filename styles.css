@@ -1,5 +1,8 @@
 @import url(./pages/homepage/homepage.css);
 @import url(./pages/allquizpage/allquizpage.css);
+@import url(./pages/rules/rules.css);
+@import url(./pages//questionpage/questionpage.css);
+
 .navbar {
 	grid-area: top-navbar;
 	padding: 0 2rem;
@@ -56,4 +59,9 @@
 
 .color-positive {
 	color: var(--colour-accent-one);
+}
+
+.btn-disabled {
+	cursor: not-allowed;
+	background-color: var(--colour-text-grey);
 }

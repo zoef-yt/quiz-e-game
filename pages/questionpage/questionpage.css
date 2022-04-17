@@ -1,0 +1,40 @@
+.question-section {
+	margin: 2rem 12rem;
+}
+.question-section div {
+	margin: 1rem 0;
+}
+
+.question-section div .btn-outline-secondary:hover {
+	background-color: transparent;
+	cursor: default;
+	color: var(--colour-primary);
+}
+
+.question-section .answers {
+	margin: 0;
+	padding: 0;
+}
+.answers .list-group-item {
+	padding: 1rem;
+}
+.answers .list-group-item:hover {
+	background-color: var(--colour-black-second);
+	cursor: pointer;
+}
+
+.answers .answer-correct {
+	background-color: var(--colour-accent-one);
+	color: var(--colour-black-second);
+}
+.answers .answer-correct:hover {
+	background-color: var(--colour-accent-one);
+}
+
+.answers .answer-wrong {
+	background-color: var(--colour-error);
+	color: var(--colour-black-second);
+}
+.answers .answer-wrong:hover {
+	background-color: var(--colour-error);
+}
