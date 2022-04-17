@@ -21,19 +21,19 @@
 	grid-area: main-content;
 }
 
-#categories-section {
+.categories-section {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 2rem;
 	justify-content: center;
 }
 
-#categories-section .card {
+.categories-section .card {
 	width: 32rem;
 	margin: 1rem;
 }
 
-#categories-section a {
+.categories-section a {
 	display: block;
 }
 
@@ -51,7 +51,7 @@
 }
 
 @media screen and (max-width: 768px) {
-	#categories-section .card {
+	.categories-section .card {
 		width: 29rem;
 		margin: 1rem;
 	}

@@ -2,6 +2,7 @@
 @import url(./pages/allquizpage/allquizpage.css);
 @import url(./pages/rules/rules.css);
 @import url(./pages//questionpage/questionpage.css);
+@import url(./pages/resultpage/resultpage.css);
 
 .navbar {
 	grid-area: top-navbar;
